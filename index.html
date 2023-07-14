@@ -9,8 +9,10 @@
 
    <!-- CSS -->
    <link rel="stylesheet" href="styles.css">
-   <link rel="icon" href="favicon KT.ico">
-
+   <link rel="icon" href="/img/favicon KT.ico">
+   <!-- MEDIA -->
+   <link rel="stylesheet" href="media_inquires.css">
+   
    <!--Fonts-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +22,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&family=Ubuntu:wght@300;400;500&display=swap"
    rel="stylesheet">
 
-   <!-- Icons from awesome -->
+   <!-- Icons fron awesome -->
    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
    crossorigin="anonymous"></script>
@@ -29,6 +31,7 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
    </script>
+
 
 </head>
 <body>
@@ -57,9 +60,9 @@
   </nav>
 
    <div class="top-container">
-      <img class= "profile-img" src="photo_profile.jpg" alt="" height="300" width="300">
-      <h1>Hello! I'm Kseniia.</h1>
-      <h2>a frontend developer</h2>
+      <img class= "profile-img" src="photo_profile.jpg" alt="profile-image">
+      <h1>Hello!<br> I'm Kseniia.</h1>
+      <h2 class="top-container-h2">a frontend developer</h2>
    </div>
 
    <div class="premiddle-container">
@@ -74,14 +77,14 @@
 
          <div class="row-skills">
 
-            <div class="skills-box col-lg-1 col-sm-12 container">
+            <div class="skills-box col-lg-1 container">
                <i class="image-skill fas fal fa-globe fa-6x" width="500"></i>
             </div>
 
-            <div class="recent-exp col-lg-1 col-sm-12 container">
+            <div class="recent-exp col-lg-1 container">
 
                <h3 id="skills-innerlink">Frontend development</h3>
-               <p>Have good fundamental knowledges at Frontend: basic JavaScript, CSS, HTML, Bootstrap</p>
+               <p>Have good fundamental knowledges at Frontend: basic JavaScript, CSS, HTML, Bootstrap.</p>
                <p>2022 - started learning in the end of 2022 after quitting from my last job.</p>
                <p>2023 - gradueted courses: <a href="https://stepik.org/cert/2111798">"JavaScript for Beginners"</a>, <a href="https://stepik.org/cert/1919186">"Generation Python".</a></p>
 
@@ -95,7 +98,11 @@
 
             <div class="raw">
 
-               <div class="lawyer-box col-lg-6 col-sm-12 container">
+               <div class="lawyer-img col-lg-6 container">
+                  <img src="law.png" alt="law" width="100">
+               </div>  
+
+               <div class="lawyer-box col-lg-6 container">
                   <h3 class="experience" id="experience-innerlink">Past working experience</h3>
                   <p>I have been working as a  lawyer for 7 years. 3 of them - as a senior lawyer:</p>
                   <p>2020 - 2022 Slavdom, head of legal department </p>
@@ -104,9 +111,6 @@
                   <p>2015 - 2016 Baurama, lawyer</p>
                </div>
 
-               <div class="lawyer-img col-lg-6 col-sm-12 container">
-                  <img  src="law.png" alt="law" width="100">
-               </div>  
 
             </div>
 
@@ -117,12 +121,12 @@
 
             <div class="row">
 
-               <div class="soft-img col-lg-4 col-sm-12 container">
+               <div class="soft-img col-lg-4 container">
                   <img src="mouse.png" alt="mouse" width="100">
                </div>
 
-               <div class="hard-skills-box col-lg-4 col-sm-12 container">
-                  <h3>Hard skills</h3>
+               <div class="hard-skills-box col-lg-4 container">
+                  <h3 class="hard-skills-h3">Hard skills</h3>
                      <ul class="description-skill-box"> 
                         <li>JavaScript(ES6)</li>
                         <li>HTML5, CSS3, SCSS, Bootstrap</li>
@@ -138,7 +142,7 @@
                
                <div class="description-skill col-lg-4 col-sm-12 container">
                   <h3>Soft skills</h3>   
-                  <p class="">As an experienced lawyer in the past I'be learned a lot about:
+                  <p class="description-skill-p">As an experienced lawyer in the past I'be learned a lot about:
                   <ul class="description-skill-box"> 
                      <li>logical & critical thinking</li>
                      <li>professional at searching the information</li>
@@ -159,16 +163,16 @@
             <div class="row">
 
                <div class="hobbies-images col-lg-4 col-md-12 container" id="hobbies-innerlink">
-                  <img src="book.png" alt="sport" width="100">
+                  <img src="/img/book.png" alt="sport" width="100">
                   <p>Learning German & Reading</p>
                </div>
                
                <div class="hobbies-images col-lg-4 col-md-12 container">
-                  <img src="running-shoes.png" alt="sport" width="100">
+                  <img src="/img/running-shoes.png" alt="sport" width="100">
                   <p>Running</p>
                </div>
                <div class="hobbies-images col-lg-4 col-md-12 container">
-                  <img src="yoga-pose2.png" alt="sport" width="100">
+                  <img src="/img/yoga-pose2.png" alt="sport" width="100">
                   <p>Fitness & Yoga</p>
                </div>
                </div>
@@ -189,7 +193,7 @@
             <img class="contact-img" src="giphy.gif" alt="gif" width="80"></a>
          </div>         
 
-         <div class="col-lg-4 container-fluid contact-me">
+         <div class="col-lg-4 container-fluid contact-me-envlope">
             <i class="fas fa-envelope fa-3x envelope-img "></i><br>
             <p>xeniiatikhomirova@gmail.com</p>
          </div>
