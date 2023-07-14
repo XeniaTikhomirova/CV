@@ -1,0 +1,99 @@
+@media (max-width: 768px) {
+   .profile-img {
+      width: 150px;
+   }
+
+   h1 {
+      font-size: 3rem;
+      margin-bottom: 5%;
+   }
+
+   h2 {
+      font-size: 0.8rem;
+   }
+
+   .top-container {
+      padding-top: 7%;
+      padding-bottom: 3%;
+      background-color: rgb(242, 234, 211);
+      padding-left: 6%;
+      padding-right: 6%;
+   }
+
+   .recent-exp {
+      text-align: center;
+   }
+ 
+   .premiddle-img{
+      width: 300px;
+   }
+
+   .lawyer-box {
+      text-align: center;
+      width: 90%;
+      padding: 5% 2% 5% 12%;
+   }
+
+   .lawyer-img {
+      display: inline-block;
+      margin-bottom: 0 auto;
+      width: 5%;
+      text-align: center;
+   }
+
+   .soft-img {
+      width: 5%;
+      margin-bottom: 6%;
+      padding-left: 3%;
+      padding-right: 30%;
+   }
+
+   .soft-skill-img {
+      padding-right: 13%;
+      padding-bottom: 5%;
+   }
+   
+   
+   .hard-skills-box {
+      text-align: center;
+      padding: 3% 5% 5% 5%;
+   }
+
+   .hard-skills-h3 {
+      text-align: center;
+   }
+   
+   .description-skill-p {
+      text-align: center;
+   }
+   .description-skill {
+      text-align: center;
+      font-size: 1.2rem;
+      position: relative;
+      right: 1rem;
+      bottom: 35px;
+      padding: 5% 7% 0 7%;
+      }
+   
+   .description-skill-box {
+       text-align: left;
+   }
+
+   .contact-me {
+      margin: 0.5rem 0;
+   }
+   
+   .contacts-box {
+      padding-top: 5%;
+   }
+
+   .contact-me-envlope {
+      width: 90%;
+      text-align: center;
+      font-size: 0.75rem;
+   }
+
+   hr {
+      margin-bottom: 10%;
+   }    
+}
