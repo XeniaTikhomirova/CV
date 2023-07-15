@@ -116,7 +116,7 @@ hr {
 }
 
 .row-skills {
-   padding-bottom: 3rem;
+   padding-bottom: 1rem;
 }
 
 .skills {
@@ -140,6 +140,25 @@ hr {
 
 .image-skill:hover, .soft-skill-img:hover {
    color: #113d23a0;
+}
+
+.projects {
+   padding-bottom: 3%;
+   font-family: 'Montserrat';
+   line-height: 2rem;
+}
+
+.projects-link {
+   font-size: 1.6rem;
+   padding-left: 2%;
+}
+
+.tindog-img {
+   color: burlywood;
+}
+
+.tindog-img:hover {
+   color: rgba(222, 184, 135, 0.182);
 }
 
 /*Past working experience*/
